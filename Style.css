@@ -1,0 +1,28 @@
+/* variabel */
+:root{
+    --warna-orangee:#fb6a27;
+    --warna-hijau:green;
+    --warna-kuning:yellow;
+    --warna-hitam:black;
+}
+
+.warna_orange{
+    color: var(--warna-orangee);
+    padding-bottom: 10px;
+}
+.warna_green{
+    color: var(--warna-green);
+}
+.warna_yellow{
+    color: var(--warna-yellow);
+}
+
+.warna_hitam{
+    color: var(--warna-yellow);
+}
+
+.navbar .navbar-nav .nav-link:hover
+{
+    color: var(--warna-orangee);
+   color: #fb6a27;
+}
